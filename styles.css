@@ -42,12 +42,13 @@
  }
 
  .button {
-     height: auto;
      font-weight: bold;
      text-align: center;
      background-color: #C1F7D5;
      padding: 1rem;
+     font-size: 1.2rem;
      border-radius: 50px;
+     width: 10rem;
  }
 
  .button:hover {
@@ -138,7 +139,7 @@
 
  .motive {
      background-color: #354463;
-     padding: 9rem;
+     padding: 5rem 9rem 6rem;
      display: flex;
      flex-direction: column;
  }
@@ -211,6 +212,92 @@
      position: relative;
      top: -4rem;
  }
+
+ .card-button {
+     font-weight: bold;
+     text-align: center;
+     background-color: #C1F7D5;
+     padding: 1rem;
+     font-size: 1.2rem;
+     border-radius: 50px;
+     width: 10rem;
+     margin: .25rem;
+ }
+
+ .card-button:hover {
+     border: 2px solid #354463;
+     cursor: pointer;
+ }
+
+ .facts {
+     background-image: url('/assets/assets/home/did-you-know-background@3x.png');
+     background-position: center;
+     background-size: cover;
+     padding: 9rem;
+     display: flex;
+     gap: 10rem;
+ }
+
+ .fact-img {
+     background-image: url('/assets/assets/home/ClimatechangeIsahungerissue.png');
+     background-size: cover;
+     background-position: center;
+     width: 28rem;
+     height: 19rem;
+     margin-bottom: 2rem;
+ }
+
+ .fact {
+     background-color: white;
+     width: 34rem;
+     display: flex;
+     justify-content: space-between;
+     padding: 4rem;
+     margin-bottom: 2rem;
+ }
+
+ .fact-detail {
+     display: flex;
+     flex-direction: column;
+     gap: .5rem;
+     width: 25rem;
+ }
+
+ .fact-head {
+     font-size: 3rem;
+     font-weight: bolder;
+ }
+
+ .icons {
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+ }
+
+ .icons div {
+     background-color: #C1F7D5;
+     border-radius: 50%;
+     text-align: center;
+     font-size: 1.1rem;
+     padding: .3rem;
+ }
+
+
+ .fact-desc {
+     font-size: 1.25rem;
+ }
+
+ .know {
+     background-color: #354463;
+     color: white;
+     width: 10rem;
+     text-align: center;
+     padding: .5rem;
+     position: relative;
+     left: 4rem;
+     top: 1rem;
+ }
+
 
  @media (max-width: 1199px) {
      .header-main {
