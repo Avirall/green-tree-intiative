@@ -298,6 +298,193 @@
      top: 1rem;
  }
 
+ .stories {
+     padding: 9rem;
+     display: flex;
+     align-items: end;
+ }
+
+ .story-box {
+     box-sizing: border-box;
+     background-color: #354463;
+     width: 36rem;
+     padding: 4rem;
+     margin-bottom: 4rem;
+ }
+
+ .story-div {
+     box-sizing: border-box;
+     position: relative;
+     left: 4rem;
+ }
+
+ .story-desc {
+     color: white;
+     font-size: 2rem;
+     margin-bottom: 2rem;
+ }
+
+ .story {
+     color: white;
+ }
+
+ .story-img {
+     background-image: url('/assets/assets/home/lady-baby@3x.png');
+     background-position: center;
+     background-size: cover;
+     width: 52rem;
+     height: 36rem;
+ }
+
+
+ .story-img div {
+     background-color: #354463;
+     color: white;
+     width: 10rem;
+     text-align: center;
+     padding: .5rem;
+     position: relative;
+     top: -1rem;
+     left: 4rem;
+ }
+
+ .event {
+     background-color: #354463;
+     padding: 9rem;
+     display: flex;
+     flex-direction: column;
+     gap: 6rem;
+ }
+
+ .events {
+     display: flex;
+     gap: 4rem;
+ }
+
+ .event-box {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+ }
+
+ .event-action {
+     color: white;
+     font-size: 3rem;
+     font-weight: bold;
+     width: 80%;
+ }
+
+ .event-desc {
+     font-size: 3rem;
+     color: white;
+     font-weight: bold;
+ }
+
+ .event-head {
+     color: #354463;
+     background-color: white;
+     width: 10rem;
+     text-align: center;
+     padding: .5rem;
+ }
+
+ .eventss {
+     color: white;
+     font-size: 1.2rem;
+     line-height: 2rem;
+ }
+
+ .event-img1 {
+     background-image: url('/assets/assets/home/tree-planting@3x.png');
+     background-position: center;
+     background-size: cover;
+     width: 42rem;
+     height: 34rem;
+ }
+
+ .event-img2 {
+     background-image: url('/assets/assets/home/meeting@3x.png');
+     background-position: center;
+     background-size: cover;
+     width: 42rem;
+     height: 34rem;
+ }
+
+ .type {
+     flex-direction: row-reverse;
+ }
+
+ .subscribe {
+     background-color: #C1F7D5;
+     box-sizing: border-box;
+     padding: 4rem 9rem;
+     display: flex;
+     align-items: center;
+     gap: 2rem;
+ }
+
+ .sub {
+     width: 50%;
+     font-size: 2rem;
+     font-weight: bold;
+ }
+
+ .email {
+     width: 30%;
+     font-size: 1rem;
+     border: 1px solid white;
+     border-radius: 20px;
+     padding: 1rem;
+     outline: none;
+ }
+
+ #sub {
+     color: #C1F7D5;
+     background-color: #354463;
+ }
+
+ footer {
+     padding: 4rem 9rem;
+     box-sizing: border-box;
+     display: flex;
+     gap: 5rem;
+ }
+
+ .website {
+     font-weight: bolder;
+     font-size: 1.5rem;
+ }
+
+ .link {
+     display: flex;
+     gap: 3rem;
+ }
+
+ .foot {
+     width: 20%;
+ }
+
+ .foot-head {
+     font-weight: bold;
+     margin-bottom: .5rem;
+     padding-bottom: .5rem;
+     border-bottom: 2px solid #354463;
+ }
+
+ .links {
+     line-height: 1.5rem;
+ }
+
+ .footer-img {
+     background-image: url('/assets/assets/donation/black-climate.png');
+     background-position: center;
+     background-size: cover;
+     width: 13.5rem;
+     height: 9rem;
+ }
+
+
 
  @media (max-width: 1199px) {
      .header-main {
